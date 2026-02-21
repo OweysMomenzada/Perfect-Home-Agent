@@ -1,0 +1,12 @@
+[project]
+name = "perfect-home-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.129.2",
+    "langchain>=1.2.10",
+    "langchain-openai>=1.1.10",
+    "requests>=2.32.5",
+]
